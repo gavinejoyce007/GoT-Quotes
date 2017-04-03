@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GoT Quotes</string>
+    <string name="action_settings">Settings</string>
+    <string name="quote">Quote</string>
+    <string name="character">Character</string>
+    <string name="not_found">No Quotes found.</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="title_activity_about">About</string>
+    <string name="action_about">About</string>
+    <string name="title_activity_instructions">Instructions</string>
+    <string name="devname">Gavine Joyce</string>
+    <string name="devstd">III year B.Tech IT</string>
+    <string name="devschool">SASTRA</string>
+    <string name="insTitle">Instructions</string>
+    <string name="appinfo">* This app lets you all GoT fans to know the latest quotes from the Sensational Hollywood Series GoT.
+        The app is under development process.*</string>
+    <string name="appins1">1. Pull down the main page to refresh the quotes displayed.</string>
+    <string name="appins2">2. Post your feedbacks in my official facebook site.</string>
+</resources>

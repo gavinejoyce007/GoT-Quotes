@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.developer.gavine.ebooks.About"
+    tools:showIn="@layout/activity_about"
+    android:background="@drawable/about"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/devname"
+        android:text="@string/devname"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#990000"
+        android:gravity="center"
+        android:layout_marginStart="-3dp"
+        android:layout_marginLeft="-3dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/devstd"
+        android:text="@string/devstd"
+        android:textSize="18sp"
+        android:textColor="#663300"
+        android:layout_below="@id/devname"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginStart="-10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/devschool"
+        android:text="@string/devschool"
+        android:textSize="18sp"
+        android:textColor="#663300"
+        android:layout_below="@id/devstd"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"/>
+
+</RelativeLayout>
